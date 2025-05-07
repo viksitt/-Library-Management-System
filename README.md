@@ -1,51 +1,32 @@
 # Library Management System
 
-![Library Management System Screenshot](./images/screenshot.png)
+![Admin Dashboard Screenshot](./images/admin-dashboard.png)
 
-A modern, responsive Library Management System with attractive UI and complete functionality based on provided requirements and flowchart.
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20Demo-brightgreen)](https://viksitt.github.io/-Library-Management-System/)
+[![GitHub License](https://img.shields.io/github/license/viksitt/-Library-Management-System)](LICENSE)
+
+A modern, responsive Library Management System with attractive UI matching the provided flowchart and design specifications.
+
+## 🌟 Live Deployment
+**Experience the system live:**  
+👉 [https://viksitt.github.io/-Library-Management-System/](https://viksitt.github.io/-Library-Management-System/)
 
 ## Features
 
-- **User Authentication**
-  - Admin, User, and Vendor login types
-  - Session management
-  - Role-based access control
+### Admin Dashboard (As Shown in Screenshot)
+![Admin Dashboard UI](./images/admin-dashboard.png)
+- **Navigation Bar**: Home | Maintenance | Transactions | Logout | View Flowchart
+- **Maintenance Module**: Admin-only access for system configurations
+- **Membership Management**: Add/update memberships with duration options
+- **Transaction Tracking**: View and manage all library transactions
 
-- **Membership Management**
-  - Add new memberships (6mo, 1yr, 2yr options)
-  - Update existing memberships
-  - Extend or cancel memberships
+## 🚀 Quick Start
 
-- **Admin Dashboard**
-  - Maintenance module (Admin only)
-  - User and Vendor management
-  - System configuration
+1. **Admin Access**  
+   Use the [live demo](https://viksitt.github.io/-Library-Management-System/) and login as admin to see the dashboard shown above
 
-- **Transactions**
-  - Book check-in/check-out
-  - Fines and payments
-  - Reservation system
-
-- **Reports**
-  - Circulation reports
-  - Inventory reports
-  - User activity logs
-
-## Technologies Used
-
-- **Frontend**
-  - HTML5, CSS3, JavaScript
-  - Responsive design with Flexbox/Grid
-  - Font Awesome icons
-  - Google Fonts (Poppins)
-
-- **Backend** (Sample Implementation)
-  - Session storage for authentication
-  - Form validations
-  - Client-side routing
-
-## Installation
-
-1. Clone the repository:
+2. **Local Installation**
    ```bash
-   git clone https://github.com/yourusername/library-management-system.git
+   git clone https://github.com/viksitt/-Library-Management-System.git
+   cd -Library-Management-System
+   python3 -m http.server 8000
