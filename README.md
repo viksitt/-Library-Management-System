@@ -1,6 +1,6 @@
 # Library Management System
 
-![Admin Dashboard Screenshot](./images/admin-dashboard.png)
+[![Admin Dashboard Screenshot](https://github.com/viksitt/-Library-Management-System/blob/main/Screenshot%202025-05-07%20220958.png)](https://viksitt.github.io/-Library-Management-System/)
 
 [![Live Demo](https://img.shields.io/badge/Demo-Live%20Demo-brightgreen)](https://viksitt.github.io/-Library-Management-System/)
 [![GitHub License](https://img.shields.io/github/license/viksitt/-Library-Management-System)](LICENSE)
