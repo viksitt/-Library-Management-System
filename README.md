@@ -7,7 +7,7 @@
 
 A modern, responsive Library Management System with attractive UI matching the provided flowchart and design specifications.
 
-## 🌟 Live Deployment
+##  Live Deployment
 **Experience the system live:**  
 👉 [https://viksitt.github.io/-Library-Management-System/](https://viksitt.github.io/-Library-Management-System/)
 
@@ -17,7 +17,7 @@ A modern, responsive Library Management System with attractive UI matching the p
 - **Membership Management**: Add/update memberships with duration options
 - **Transaction Tracking**: View and manage all library transactions
 
-## 🚀 Quick Start
+##  Quick Start
 
 1. **Admin Access**  
    Use the [live demo](https://viksitt.github.io/-Library-Management-System/) and login as admin to see the dashboard shown above
