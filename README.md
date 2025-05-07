@@ -12,9 +12,6 @@ A modern, responsive Library Management System with attractive UI matching the p
 👉 [https://viksitt.github.io/-Library-Management-System/](https://viksitt.github.io/-Library-Management-System/)
 
 ## Features
-
-### Admin Dashboard (As Shown in Screenshot)
-![Admin Dashboard UI](./images/admin-dashboard.png)
 - **Navigation Bar**: Home | Maintenance | Transactions | Logout | View Flowchart
 - **Maintenance Module**: Admin-only access for system configurations
 - **Membership Management**: Add/update memberships with duration options
