@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maintenance - Library Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Maintenance Menu</h1>
+        <nav>
+            <a href="admin.html">Dashboard</a>
+            <a href="maintenance.html">Maintenance</a>
+            <a href="transactions.html">Transactions</a>
+            <a href="#" id="logout">Logout</a>
+            <a href="images/flowchart.png" target="_blank">View Flowchart</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="maintenance-menu">
+            <h2>Admin Maintenance Options</h2>
+            
+            <div class="maintenance-options">
+                <div class="option-card" onclick="location.href='membership.html?action=add'">
+                    <h3>Add Membership</h3>
+                    <p>Create new membership records</p>
+                </div>
+                
+                <div class="option-card" onclick="location.href='membership.html?action=update'">
+                    <h3>Update Membership</h3>
+                    <p>Modify existing membership records</p>
+                </div>
+                
+                <div class="option-card">
+                    <h3>User Management</h3>
+                    <p>Add/Update user accounts</p>
+                </div>
+                
+                <div class="option-card">
+                    <h3>Vendor Management</h3>
+                    <p>Manage vendor accounts</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Library Management System</p>
+    </footer>
+    
+    <script src="js/auth.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
